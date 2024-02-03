@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    display: block;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(5, 5, 91);
+    font-size: 3em;
+}
+
+label {
+    font-size: 7em;
+    color: rgb(10, 211, 124);
+}
+
+button{
+    font-size: 1.3em;
+    margin-left: 10px;
+    margin-top: 20px;
+    padding-top: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(77, 77, 78);
+    background-color: rgb(206, 221, 236);
+    transition: background-color 0.5s;
+}
+
+button:hover {
+    border: 3px solid rgb(23, 85, 219);
+    background-color: rgb(255, 255, 255);
+}
